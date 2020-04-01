@@ -1,0 +1,43 @@
+.form {
+	width: 700px;
+	background-position: 0% 0%, 0px -50px;
+	background-repeat: repeat, repeat;
+	background-attachment: scroll, scroll;
+	background-image: radial-gradient(
+			circle at 100% 50%,
+			transparent 20%,
+			rgba(255, 255, 255, 0.3) 21%,
+			rgba(255, 255, 255, 0.3) 34%,
+			transparent 35%,
+			transparent
+		),
+		radial-gradient(
+			circle at 0% 50%,
+			transparent 20%,
+			rgba(255, 255, 255, 0.3) 21%,
+			rgba(255, 255, 255, 0.3) 34%,
+			transparent 35%,
+			transparent
+		);
+	background-origin: padding-box, padding-box;
+	background-clip: border-box, border-box;
+	background-color: #04c8de;
+	background-size: 75px 100px;
+	--darkreader-inline-bgimage: radial-gradient(
+			circle at 100% 50%,
+			rgba(0, 0, 0, 0) 20%,
+			rgba(24, 26, 27, 0.3) 21%,
+			rgba(24, 26, 27, 0.3) 34%,
+			rgba(0, 0, 0, 0) 35%,
+			rgba(0, 0, 0, 0)
+		),
+		radial-gradient(
+			circle at 0% 50%,
+			rgba(0, 0, 0, 0) 20%,
+			rgba(24, 26, 27, 0.3) 21%,
+			rgba(24, 26, 27, 0.3) 34%,
+			rgba(0, 0, 0, 0) 35%,
+			rgba(0, 0, 0, 0)
+		);
+	--darkreader-inline-bgcolor: #04c8de;
+}
