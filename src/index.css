@@ -1,14 +1,14 @@
 body {
-	margin: 0;
-	font-family: 'Roboto', 'Segoe UI';
-	background: linear-gradient(75deg, #ff5edf 0%, #04c8de 100%) no-repeat
-		center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI';
+    background: linear-gradient(75deg, #ff5edf 0%, #04c8de 100%) no-repeat
+        center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 button {
-	cursor: pointer;
+    cursor: pointer;
 }
